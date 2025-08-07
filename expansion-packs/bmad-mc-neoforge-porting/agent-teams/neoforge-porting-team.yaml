@@ -1,0 +1,13 @@
+bundle:
+  name: NeoForge Porting Team
+  icon: 🛠️
+  description: Team specialized in migrating NeoForge mods from 1.20.1 to 1.21.8.
+agents:
+  - analyst
+  - architect
+  - bmad-orchestrator
+  - mc-porting-expert
+  - qa
+  - sm
+workflows:
+  - neoforge-porting.yaml

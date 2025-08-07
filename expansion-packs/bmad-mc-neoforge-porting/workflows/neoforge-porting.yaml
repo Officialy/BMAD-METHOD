@@ -1,0 +1,27 @@
+workflow:
+  id: neoforge-porting
+  name: NeoForge Mod Porting 1.20.1→1.21.8
+  description: Workflow guiding planning, implementation, QA, and rule capture for NeoForge migrations.
+  type: migration
+  phases:
+    - phase: planning
+      steps:
+        - agent: analyst
+          creates: docs/migration/PRD-PORTING.md
+          uses: create-porting-prd.md
+        - agent: architect
+          creates: docs/migration/ARCH-DELTA.md
+          uses: create-arch-delta.md
+        - agent: sm
+          creates: stories/<subsystem>.md
+          uses: create-story-pack.md
+    - phase: development
+      steps:
+        - agent: mc-porting-expert
+          action: implement-stories
+        - agent: qa
+          action: validate-builds
+    - phase: memory
+      steps:
+        - agent: mc-porting-expert
+          uses: record-migration-rule.md
