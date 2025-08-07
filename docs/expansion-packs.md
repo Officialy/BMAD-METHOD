@@ -30,6 +30,14 @@ Transform your AI into a complete game development studio:
 - **Art Director**: Visual style guides, asset specifications
 - **Sound Designer**: Audio direction, music themes, SFX planning
 
+### Minecraft NeoForge Porting Pack
+
+Port complex Java mod suites from Minecraft 1.20.1 to 1.21.8 on NeoForge:
+
+- PRD and architecture delta templates tailored for NeoGradle 8.14.3
+- Story-pack driven development with subsystem planning and Gradle builds
+- Memory hooks for recording reusable migration rules and gotchas
+
 ### Mobile Development Pack
 
 Specialized agents for mobile app creation:

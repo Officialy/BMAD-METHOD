@@ -1,0 +1,7 @@
+name: bmad-mc-neoforge-porting
+version: 1.0.0
+short-title: NeoForge Mod Porting Pack
+description: >-
+  Workflow and agents for porting Java Minecraft mods from 1.20.1 to 1.21.8 on NeoForge with NeoGradle 8.14.3.
+author: Roo Code & BMad
+slashPrefix: bmadmcp
